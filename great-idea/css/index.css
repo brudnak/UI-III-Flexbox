@@ -111,15 +111,17 @@ header {
 }
 /* END .header-left */
 
-.top-section-columns {
-	width: 49%;
-	display: inline-block;
+/* START top-section */
+#top-section {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
-.top-section-columns h2 {
-	font-size: 50px;
-
+#top-section h2{
+	font-size: 36px;
 }
+/* END top-section */
 
 hr {
 	border: 1px solid #000;
@@ -127,6 +129,7 @@ hr {
 	margin-bottom: 40px;
 }
 
+/* START hero image */
 .hero-image {
 	width: 100%;
 	padding-top: 30px;
@@ -138,6 +141,7 @@ hr {
 	width: calc(100%);
 	margin: 0 auto;
 }
+/* END hero image */
 
 .bottom-section-columns {
 	width: 32%;
