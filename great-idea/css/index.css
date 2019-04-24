@@ -70,28 +70,17 @@ h1, h2, h3, h4, h5 {
 	margin: 0 auto;
 }
 
-.navigation {
-	padding: 25px 50px 0px;
-	overflow: hidden;
-	top: 0;
-	width: 100%;
+.main-nav {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
+	margin-top: 30px;
 }
 
-.navigation .nav-items {
-	display: inline-block;
-}
-
-.navigation .logo {
-	float: right;
-	margin-bottom: 25px;
-}
-
-.navigation .nav-items a {
+.main-nav a {
 	text-decoration: none;
 	color: #8d929b;
-	padding: 0px 60px 0px;
-	font-size: 21px;
-	vertical-align: bottom;
+	font-size: 22px;
 }
 
 header {
