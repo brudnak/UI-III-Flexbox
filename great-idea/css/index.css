@@ -143,15 +143,17 @@ hr {
 }
 /* END hero image */
 
-.bottom-section-columns {
-	width: 32%;
-	display: inline-block;
+/* START bottom section */
+#bottom-section {
+	display: flex;
+	justify-content: space-evenly;
+	align-items: center;
 }
 
-.bottom-section-columns h2 {
-	font-size: 50px;
-
+#bottom-section h2 {
+	font-size: 36px;
 }
+/* END bottom section */
 
 .contact {
 	width: 100%;
