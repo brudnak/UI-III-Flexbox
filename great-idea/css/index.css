@@ -156,8 +156,9 @@ hr {
 /* END bottom section */
 
 .contact {
-	width: 100%;
-	display: inline-block;
+	display: flex;
+	justify-content: flex-start;
+	align-items: center;
 }
 
 .contact h2 {
